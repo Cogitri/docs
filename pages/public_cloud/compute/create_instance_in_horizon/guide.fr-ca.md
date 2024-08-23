@@ -46,7 +46,7 @@ Cliquez sur `Create Network`{.action}
 >> **Subnet Name :** Entrez un nom pour votre sous-réseau.<br>
 >> **Network Address :** Choisissez une gamme de réseau privé. Par exemple : `192.168.0.0/24`.<br>
 >> **IP Version :** Laissez cette valeur à IPv4.<br>
->> **Gateway IP :** Cette option est facultative. Si elle n’est pas définie, une Gateway IP est automatiquement sélectionnée.<br>
+>> **Gateway IP :** Facultatif. Si elle n’est pas définie, une adresse Gateway IP est automatiquement sélectionnée.<br>
 >> **Disable Gateway :** Laissez cette option désactivée.<br><br>
 >>![subnet](images/subnet_information.png){.thumbnail}<br>
 >>
@@ -163,13 +163,13 @@ Pour plus d'informations sur la création d'une clé SSH, consultez ce [guide](/
 
 **Autres options**
 
-Attention, ces options ne sont pas obligatoires pour la création d'une instance de base. Si vous souhaitez explorer davantage ces options, consultez la [documentation Openstack officielle](https://docs.openstack.org/horizon/latest/user/launch-instances.html){.external}.
+Attention, ces options ne sont pas obligatoires pour la création d'une instance de base. Si vous souhaitez explorer davantage ces options, consultez la [documentation OpenStack officielle](https://docs.openstack.org/horizon/latest/user/launch-instances.html){.external}.
 
 |Informations|Détails|
 |---|---|
 |Custom script source|Spécifiez la source entre une « direct entry » ou un « file ».|
 |Script data|Entrez le code de script dans le champ d'entrée (16 Ko maximum).|
-|Script file|Cliquez sur `browse` to select the post-installation script.|
+|Script file|Cliquez sur `Browse`{.action} to select the post-installation script.|
 |Disk partitioning|Choisissez entre "automatic" et "manual".|
 |Configuration disk|Configurez OpenStack pour écrire des métadonnées sur un disque de configuration spécifique qui sera attaché à l'Instance au lancement.|
 

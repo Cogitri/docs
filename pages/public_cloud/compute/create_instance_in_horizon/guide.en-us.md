@@ -45,7 +45,7 @@ Click on `Create Network`{.action}
 >> **Subnet Name:** Enter a name for your subnet.<br>
 >> **Network Address:** Choose a private network range. For example: `192.168.0.0/24`.<br>
 >> **IP Version:** Leave this value at IPv4.<br>
->> **Gateway IP:** This option is optional. If it is not defined, a Gateway IP is automatically selected.<br>
+>> **Gateway IP:** This is optional. If it is not defined, a Gateway IP is automatically selected.<br>
 >> **Disable Gateway:** Leave this unchecked.<br><br>
 >>![subnet](images/subnet_information.png){.thumbnail}<br>
 >>
@@ -60,7 +60,7 @@ Click on `Create Network`{.action}
 
 ### Create Instance
 
-In the horizon interface, click on `Compute`{.action} in the left-hand menu, then `Instances`{.action}.
+In the Horizon interface, click on `Compute`{.action} in the left-hand menu, then `Instances`{.action}.
 
 ![createinstance](images/create-instance-step1.png){.thumbnail}
 
@@ -88,9 +88,9 @@ You will then need to fill in the information requested. Please note that this g
 
 |Information|Details|
 |---|---|
-|Select Boot Source|Click on the drop-down arrown to select the source for launching an instance (e.g. "Image" or "Instance snapshot").|
+|Select Boot Source|Click on the drop-down arrow to select the source for launching an instance (e.g. "Image" or "Instance snapshot").|
 |Create New Volume|You may choose to check this option if you wish to create a volume into which the specified operating system image is copied.|
-|Volume size (GB)|If you have choosen to create a volume, allow the system to determine the size for you.|
+|Volume size (GB)|If you have chosen to create a volume, allow the system to determine the size for you.|
 |Delete Volume on Instance Delete|You can leave the default option **No**. If **Yes** is selected, when the instance is deleted, so is the volume.|
 |Image name (only when launching from an image)|Select the Instance image by clicking on the upward arrow next to the image of your choice. In our example, we use selected Centos 7.|
 |Instance snapshot (only for launching from a snapshot)|Choose an Instance snapshot by clicking on the upward arrow next to the instance snapshot image of your choice.|
@@ -162,13 +162,13 @@ For more information on how to create an SSH key, consult this [guide](/pages/pu
 
 **Other options**
 
-Please note that these options are not mandatory for the creation of a basic instance. If you wish to explore these options further, consult the official [Openstack documentation](https://docs.openstack.org/horizon/latest/user/launch-instances.html).
+Please note that these options are not mandatory for the creation of a basic instance. If you wish to explore these options further, consult the official [OpenStack documentation](https://docs.openstack.org/horizon/latest/user/launch-instances.html).
 
 |Information|Details|
 |---|---|
 |Custom script source|Specify the source between a "direct entry" or a "file".|
 |Script data|Enter the script code in the input field (16KB maximum).|
-|Script file|Click ‘browse’ to select the post-installation script.|
+|Script file|Click `Browse`{.action} to select the post-installation script.|
 |Disk partitioning|Choose between "automatic" or "manual".|
 |Configuration disk|Configure OpenStack to write metadata on to a specific configuration disk that will be attached to the Instance when it is launched.|
 
