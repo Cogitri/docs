@@ -1,7 +1,7 @@
 ---
 title: 'Creating an Instance via the Horizon interface'
 excerpt: 'Find out how to create an Instance via the Horizon interface'
-updated: 2024-08-21
+updated: 2024-08-22
 ---
 
 ## Objective
@@ -133,7 +133,7 @@ For more information on how to create an SSH key, consult this [guide](/pages/pu
 > [!tabs]
 > **+ Create Key Pair**
 >> 
->> To create a Keypair, click on the `+ Create Key Pair`{.action} button. Please note that with this option, additional steps have to be made before you are able to connect to the instance, especially if you are using the software Putty to connect to your instance. 
+>> To create a Keypair, click on the `+ Create Key Pair`{.action} button. Please note that with this option, additional steps have to be made before you are able to connect to the instance, especially if you are using the software Putty to connect to your instance. See this [section](/pages/public_cloud/compute/public-cloud-first-steps#step-4-connecting-to-your-instance) of the corresponding guide.
 >>
 >> **Key Pair Name:** Enter a name for your key.<br>
 >> **Key Type:** Click on the `drop down arrow` and select `SSH Key`.<br>
